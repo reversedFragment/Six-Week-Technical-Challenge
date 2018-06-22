@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sex Week Technical Challenge/ModelController/NameListController.swift"
+            timestampString = "551387475.787955"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "NameListController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sex_Week_Technical_Challenge.NameListController.nameList.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Sex Week Technical Challenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/benadams/Desktop/iOS19/Sex%20Week%20Technical%20Challenge/Sex%20Week%20Technical%20Challenge/ModelController/NameListController.swift"
+                  timestampString = "551385103.737288"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sex_Week_Technical_Challenge.NameListController.nameList.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Sex Week Technical Challenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/benadams/Desktop/iOS19/Sex%20Week%20Technical%20Challenge/Sex%20Week%20Technical%20Challenge/ModelController/NameListController.swift"
+                  timestampString = "551385103.741223"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sex_Week_Technical_Challenge.NameListController.init() -&gt; Sex_Week_Technical_Challenge.NameListController"
+                  moduleName = "Sex Week Technical Challenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/benadams/Desktop/iOS19/Sex%20Week%20Technical%20Challenge/Sex%20Week%20Technical%20Challenge/ModelController/NameListController.swift"
+                  timestampString = "551385103.7444251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

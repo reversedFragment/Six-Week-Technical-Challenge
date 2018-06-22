@@ -44,7 +44,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Groups" id="jYK-Q8-HNe">
                         <rightBarButtonItems>
-                            <barButtonItem style="plain" systemItem="add" id="JFl-M5-Nxj">
+                            <barButtonItem systemItem="add" id="JFl-M5-Nxj">
                                 <connections>
                                     <action selector="addName:" destination="dNp-VG-Xwm" id="Mod-eZ-tOB"/>
                                 </connections>
