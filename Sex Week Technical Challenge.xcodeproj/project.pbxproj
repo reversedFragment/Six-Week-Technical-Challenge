@@ -12,7 +12,7 @@
 		16F9528D20DD506B002A9062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F9528C20DD506B002A9062 /* Assets.xcassets */; };
 		16F9529020DD506B002A9062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F9528E20DD506B002A9062 /* LaunchScreen.storyboard */; };
 		16F9529E20DD558F002A9062 /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9529D20DD558F002A9062 /* GroupsTableViewController.swift */; };
-		16F952A220DD5813002A9062 /* NameListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F952A120DD5813002A9062 /* NameListController.swift */; };
+		16F952A220DD5813002A9062 /* NameListModel + NameListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F952A120DD5813002A9062 /* NameListModel + NameListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		16F9528F20DD506B002A9062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16F9529120DD506B002A9062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F9529D20DD558F002A9062 /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
-		16F952A120DD5813002A9062 /* NameListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameListController.swift; sourceTree = "<group>"; };
+		16F952A120DD5813002A9062 /* NameListModel + NameListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NameListModel + NameListController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 		16F9529820DD50F8002A9062 /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
-				16F952A120DD5813002A9062 /* NameListController.swift */,
+				16F952A120DD5813002A9062 /* NameListModel + NameListController.swift */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16F952A220DD5813002A9062 /* NameListController.swift in Sources */,
+				16F952A220DD5813002A9062 /* NameListModel + NameListController.swift in Sources */,
 				16F9528620DD506B002A9062 /* AppDelegate.swift in Sources */,
 				16F9529E20DD558F002A9062 /* GroupsTableViewController.swift in Sources */,
 			);

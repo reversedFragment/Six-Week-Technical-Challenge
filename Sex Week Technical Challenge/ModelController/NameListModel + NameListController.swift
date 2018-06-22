@@ -12,11 +12,7 @@ class NameListController {
     
     // MARK: Properties
     
-    var nameList: [String] = ["Badams", "Other Badmen", "Trautman", "Dalling", "Landon"] {
-        didSet {
-            GroupsTableViewController.viewWillAppear(self)
-        }
-    }
+    var nameList: [String] = []
         
     static let shared = NameListController()
     
@@ -34,6 +30,8 @@ class NameListController {
     }
 
 }
+
+// Mark: - Allows my array to be shuffled in place so I don't need to do any more model logic
 extension Array {
     mutating func shuffle() {
         for _ in indices {

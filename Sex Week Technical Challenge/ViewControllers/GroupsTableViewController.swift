@@ -9,7 +9,6 @@
 import UIKit
 
 class GroupsTableViewController: UITableViewController {
-
     
     /// Mark: - Properties
     
@@ -22,7 +21,6 @@ class GroupsTableViewController: UITableViewController {
             counter += 1
         }
         return sectionNameTemp
-
     }()
     
     @IBAction func addName(_ sender: Any) {
@@ -99,6 +97,7 @@ class GroupsTableViewController: UITableViewController {
     }
 }
 
+
 extension GroupsTableViewController {
     func setupAlertController() {
         
@@ -120,6 +119,7 @@ extension GroupsTableViewController {
         let enterNameAction = UIAlertAction(title: "Enter", style: .destructive) { (_) in
             guard let nameText = nameTextField?.text, !nameText.isEmpty else {return}
             NameListController.shared.nameList.append(nameText)
+            self.tableView.reloadData()
             
         }
         
