@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gRC-el-tV0">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Groups-->
         <scene sceneID="nEa-ar-bwM">
             <objects>
-                <tableViewController id="dNp-VG-Xwm" sceneMemberID="viewController">
+                <tableViewController id="dNp-VG-Xwm" customClass="GroupsTableViewController" customModule="Sex_Week_Technical_Challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7ee-Rw-UEh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +26,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ghw-UL-n8p">
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="(name)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ghw-UL-n8p">
                                             <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -41,7 +42,23 @@
                             <outlet property="delegate" destination="dNp-VG-Xwm" id="8CM-Nn-1kl"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Groups" id="jYK-Q8-HNe"/>
+                    <navigationItem key="navigationItem" title="Groups" id="jYK-Q8-HNe">
+                        <rightBarButtonItems>
+                            <barButtonItem style="plain" systemItem="add" id="JFl-M5-Nxj">
+                                <connections>
+                                    <action selector="addName:" destination="dNp-VG-Xwm" id="Mod-eZ-tOB"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Randomize" id="Tv8-r2-aOo">
+                                <connections>
+                                    <action selector="randomizeNameList:" destination="dNp-VG-Xwm" id="sea-jC-Aer"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="7ee-Rw-UEh" id="6WC-c3-tR1"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIh-vy-eZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
