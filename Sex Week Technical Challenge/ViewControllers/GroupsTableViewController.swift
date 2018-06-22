@@ -72,10 +72,14 @@ class GroupsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String {
+        if (self.sectionNames.count == 0) {
+            return "Group 1"
+        }
         if (self.sectionNames.count != 0) {
             return (self.sectionNames[section + 1] as? String)!
         }
         return ""
+        
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
